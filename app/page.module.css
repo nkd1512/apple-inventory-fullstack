@@ -1,0 +1,86 @@
+.container{
+  padding: 40px 20px;
+  background-color: #fff;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
+.title{
+  font-size: 28px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.addButton{
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.tableWrapper{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.theadRow{
+  border-bottom: 1px solid #d2d2d7;
+}
+.th{
+  text-align: left;
+  padding: 15px;
+  font-size: 12px;
+  color: #86868b;
+}
+.thCenter{
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+  color: #86868b;
+}
+.tr{
+  border-bottom: 1px solid #f5f5f7;
+}
+.td{
+  padding: 20px 15px;
+  color: #1d1d1f;
+  font-size: 15px;
+}
+.tdBold{
+  padding: 20px 15px;
+  color: #1d1d1f;
+  font-size: 15px;
+  font-weight: 600;
+}
+.tdLight{
+  padding: 20px 15px;
+  color: #86868b;
+  font-size: 14px;
+}
+.tdCenter{
+  text-align: center;
+  padding: 20px 15px;
+}
+.editLink{
+  color: #0066cc;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 14px;
+}
+.deleteBtn{
+  background: none;
+  border: none;
+  color: #ff3b30;
+  cursor: pointer;
+  font-size: 14px;
+}
