@@ -1,0 +1,81 @@
+/* Styles for product list page */
+.productContainer {
+  padding: 20px;
+}
+.addProductButton {
+  margin: 10px 0;
+  padding: 8px 12px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.productTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+.productTable th,
+.productTable td {
+  border: 1px solid #e6e6e6;
+  padding: 8px;
+  text-align: left;
+}
+.productTable th {
+  background: #fafafa;
+}
+
+/* Additional layout styles used by the component */
+.container {
+  padding: 40px 20px;
+  background-color: #fff;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1d1d1f;
+  letter-spacing: -0.5px;
+}
+.addButton {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+.tableWrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+.theadRow {
+  border-bottom: 1px solid #d2d2d7;
+}
+.th {
+  text-align: left;
+  padding: 15px;
+  font-size: 12px;
+  color: #86868b;
+  font-weight: 600;
+}
+.thCenter { text-align: center; padding: 15px; font-size: 12px; color: #86868b; }
+.tr { border-bottom: 1px solid #f5f5f7; }
+.td { padding: 20px 15px; color: #1d1d1f; font-size: 15px; }
+.tdBold { padding: 20px 15px; color: #1d1d1f; font-size: 15px; font-weight: 600; }
+.tdLight { padding: 20px 15px; color: #86868b; font-size: 14px; }
+.tdCenter { text-align: center; padding: 20px 15px; }
+.editLink { color: #0066cc; text-decoration: none; margin-right: 15px; font-size: 14px; }
+.deleteBtn { background: none; border: none; color: #ff3b30; cursor: pointer; font-size: 14px; }
